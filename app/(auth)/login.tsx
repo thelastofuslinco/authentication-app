@@ -53,7 +53,6 @@ export default function Login() {
         Login to continue your fitness journey 💪
       </Text>
 
-      {/* Input Email */}
       <TextInput
         placeholder="Email"
         value={email}
@@ -63,7 +62,6 @@ export default function Login() {
         className="border border-gray-300 rounded-xl px-4 py-3 mb-4"
       />
 
-      {/* Input Password + Show/Hide */}
       <View className="mb-4 relative">
         <TextInput
           placeholder="Password"
